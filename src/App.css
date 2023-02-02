@@ -1,74 +1,87 @@
-.root {
-  text-align: center;
 
-}
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
 
 #wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 background-color: DeepSkyBlue;
-height: 100%;
+position: fixed;
+top: 0px;
+bottom: 0px;
+left: 0px;
+right: 0px;
 width: 100%;
-margin: 0px;
-
-
+height: 100%;
+z-idex: -2;
 }
 
 #quote-box {
-  display: flex;
+position: relative;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+width: 30%;
+height: 45%;
 
-
+left: 35%;
+right: 30%;
+top: 20%;
 background-color: white;
 
 }
 
 #text {
-  display: flex;
- 
-bottom: 120px;
+position: relative;
+display: flex;
+bottom: 15%;
 
-margin-left: 50px;
-margin-right: 50px;
+font-family:  Raleway;
+font-size: 27px;
 text-align: center;
 }
 
 #b {
+position: relative;
+justify-content: space-around;
+display: inline-block;
+font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 4em;
+    line-height: 1;
+    font-family: FontAwesome;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
 
-font-family: sans-serif;
-font-size: 6em;
-top: 46px; 
-right: 7px;
+transform: translate(0, 0);
+
 }
 
-p {
 
-font-family:  Raleway;
-font-size: 27px;
-
-}
 
 #author {
-top: 305px;
-left: 360px;
-right: 50%;
+left: 75%;
+bottom: 13%;
 
+position: relative;
 font-family: Raleway;
-
+display: flex;
 font-style: normal; 
 }
 
 #buttons {
-  display: flex;
-  
-top: 320px;
+position: relative;
+display: flex; 
+
 }
 
 #tweet-quote {
 right:50px;
-
+position: relative;
+display: inline; 
 height: 26px;
 width: 8px;
 margin-top: 30px;
@@ -97,14 +110,14 @@ width: 20px
 
 #new-quote {
 float: right;
-left: 220px;
-right: 0px;
-z-idex: 2;
+left: 195%;
+
+
 position: relative;
- display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
 height: 26px;
 border: none;
 border-radius: 3px;
@@ -127,8 +140,8 @@ display: flex;
 align-items: center;
 font-size: 15px;
 color: white;
-left: 47%;
-top: 480px;  
+left: 48%;
+top: 67%;  
 z-index: 2;
 display: flex;
 align-items: center;

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './App.js';
+import './App.css';
 import Presentational from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -25,6 +26,11 @@ const Quotes = {
   2 : {quote:'I’ve missed more than 9000 shots in my career. I’ve lost almost 300 games. 26 times I’ve been trusted to take the game winning shot and missed. I’ve failed over and over and over again in my life. And that is why I succeed.', author:'- Michael Jordan'},
   3 : {quote:'If you’re offered a seat on a rocket ship, don’t ask what seat! Just get on.', author:'- Sheryl Sandberg'},
   4 : {quote:'First, have a definite, clear practical ideal; a goal, an objective. Second, have the necessary means to achieve your ends; wisdom, money, materials, and methods. Third, adjust all your means to that end.', author:'- Aristotle'},
+  5: {quote: 'There is only one way to avoid criticism: do nothing, say nothing, and be nothing.', author:'- Aristotle'},
+  6: {quote:'We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light.', author:'- Plato'},
+  7: {quote: 'Winning isn’t everything, but wanting to win is.', author:'- Vince Lombardi'},
+  8: {quote: 'A person who never made a mistake never tried anything new.', author:'- Albert Einstein'},
+  9: {quote: 'Everything you’ve ever wanted is on the other side of fear.', author:'- George Addair'}
 }
 
 class QuoteBox extends React.Component {
