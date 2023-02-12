@@ -30,7 +30,21 @@ const Quotes = {
   6: {quote:'We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light.', author:'- Plato'},
   7: {quote: 'Winning isn’t everything, but wanting to win is.', author:'- Vince Lombardi'},
   8: {quote: 'A person who never made a mistake never tried anything new.', author:'- Albert Einstein'},
-  9: {quote: 'Everything you’ve ever wanted is on the other side of fear.', author:'- George Addair'}
+  9: {quote: 'Everything you’ve ever wanted is on the other side of fear.', author:'- George Addair'},
+  10: {quote: 'People often say that motivation doesn’t last. Well, neither does bathing. That’s why we recommend it daily.', author:'- Zig Ziglar'},
+  11: {quote: 'Remember that not getting what you want is sometimes a wonderful stroke of luck.', author:'- Dalai Lama'},
+  12: {quote: 'Teach thy tongue to say, “I do not know,” and thou shalt progress.', author:'- Maimonides'},
+  13: {quote: 'Too many of us are not living our dreams because we are living our fears.', author:'- Les Brown'},
+  14: {quote: 'Fall seven times and stand up eight.', author:'- Japanese Proverb'},
+  15: {quote: 'Believe you can and you’re halfway there.', author:'- Theodore Roosevelt'},
+  16: {quote: 'Everything has beauty, but not everyone can see.', author:'- Confucius'},
+  17: {quote: 'Education costs money. But then so does ignorance.', author:'- Sir Claus Moser'},
+  18: {quote: 'Nothing is impossible, the word itself says, “I’m possible!”', author:'- Audrey Hepburn'},
+  19: {quote: 'Certain things catch your eye, but pursue only those that capture the heart.', author:'- Ancient Indian Proverb'},
+  20: {quote: 'Life isn’t about getting and having, it’s about giving and being.', author:'- Kevin Kruse'},
+  21: {quote: 'When I was 5 years old, my mother always told me that happiness was the key to life. When I went to school, they asked me what I wanted to be when I grew up. I wrote down ‘happy’. They told me I didn’t understand the assignment, and I told them they didn’t understand life.', author:'- John Lennon'},
+  22: {quote: 'It’s not the years in your life that count. It’s the life in your years.', author:'- Abraham Lincoln'}
+
 }
 
 class QuoteBox extends React.Component {
@@ -42,7 +56,8 @@ class QuoteBox extends React.Component {
    quote: Quotes[1].quote,
    author: Quotes[1].author,
    number2: colors[0],
-   color1: colors[0]
+   color1: colors[0],
+
   }
   this.chooseQuote = this.chooseQuote.bind(this);
   this.chooseColor = this.chooseColor.bind(this);
